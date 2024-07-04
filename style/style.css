@@ -2,17 +2,19 @@
     margin: 0px;
     padding: 0px;
 }
-
+body{
+    background-color: antiquewhite;    
+}
 .container{
     
     background-image:url(../images/background.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
     background-size: cover;
     width: 80vw;
     height: 100vh;
     text-align: center;
-    margin: 20px auto;
+    margin: 0px auto;
     background-position: 0vh;
     position: flex;
     justify-content: center;
@@ -37,9 +39,9 @@
     font-family: sutonnyMJ;
     
 }
-.son1>p{
+.son1 p{
     font-size: 2.5rem;
-    font-family: sutonnyMJ;
+    font-family:sutonnyMJ;
 }
 .notice{
     color: white;
@@ -50,7 +52,7 @@
     margin: 5px auto;
 }
 
-.son2>p{
+.son2{
     width:80%;
     font-size: 1.5rem;
     color: #fcfbfb;
